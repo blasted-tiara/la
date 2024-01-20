@@ -1,10 +1,10 @@
-SL(1): Cure your bad habit of mistyping
+LA(1): See a high quality ant colony animation to brighten up your day, if you're lucky enough.
 =======================================
 
-SL (Steam Locomotive) runs across your terminal when you type "sl" as
-you meant to type "ls". It's just a joke command, and not useful at
-all.
+LA (Lucky ants) sometimes run across your terminal when you type "la". It's just a joke command, and not useful at all.
 
-Copyright 1993,1998,2014 Toyoda Masashi (mtoyoda@acm.org)
+Copyright 2024 Enver Podgorcevic
+
+Inspored by and forked from the cult classic SL by Toyoda Masashi (mtoyoda@acm.org)
 
 ![](demo.gif)
