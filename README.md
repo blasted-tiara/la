@@ -19,7 +19,7 @@ make clean && make
 ```
 
 
-After compiling, if you want the command run _only sometimes_ when you type `la`  
+After compiling, if you want the command run _only sometimes_ when you type `la`,  
 add this to your `.bashrc/.zshrc/.somethingelserc`:
 ```
 unalias la                        # Unalias the usual la command
