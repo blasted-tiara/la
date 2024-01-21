@@ -19,7 +19,7 @@ make clean && make
 ```
 
 
-After compiling, if you want the command run _only sometimes_ when you type `la`,
+After compiling, if you want the command run _only sometimes_ when you type `la`  
 add this to your `.bashrc/.zshrc/.somethingelserc`:
 ```
 unalias la                        # Unalias the usual la command
@@ -39,5 +39,3 @@ With this configuration, it runs with probability of `1/10`.
 Inspired by and forked from the cult classic `sl` by Toyoda Masashi (mtoyoda@acm.org)
 
 This project is specifically created for a job application at AntColony.
-
-Copyright 2024 Enver Podgorcevic
