@@ -37,5 +37,3 @@ With this configuration, it runs with probability of `1/10`.
 ****************************************************************
 
 Inspired by and forked from the cult classic `sl` by Toyoda Masashi (mtoyoda@acm.org)
-
-This project is specifically created for a job application at AntColony.
