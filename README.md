@@ -1,10 +1,42 @@
-LA(1): See a high quality ant colony animation to brighten up your day, if you're lucky enough.
-=======================================
+# Lucky Ant
 
-LA (Lucky ant) sometimes run across your terminal when you type "la". It's just a joke command, and not useful at all.
+Sometimes a cute ASCII ant run across your terminal when you type `la`, if you're lucky enough.
+
+It's just a joke command, and not useful at all.
+
+## Build
+This project uses `curses.h` library, which you can install on Ubuntu by running:
+```
+sudo apt-get install libncurses5-dev libncursesw5-dev
+```
+To compile, run:
+```
+make clean && make
+```
+
+<p align="center">
+  <img src="demo.gif" />
+</p>
+
+After compiling, if you want the command run _only sometimes_ when you type `la`,
+add this to your `.bashrc/.zshrc/.somethingelserc`:
+```
+unalias la
+function la {
+    if (( $RANDOM % 10 == 0 ));
+    then
+        ~/path_to_project/la
+    else
+        ls -lAh
+    fi
+}
+```
+With this configuration, it runs with probability of `1/10`.
+
+****************************************************************
+
+Inspired by and forked from the cult classic `sl` by Toyoda Masashi (mtoyoda@acm.org)
+
+This project is specifically created for a job application at AntColony.
 
 Copyright 2024 Enver Podgorcevic
-
-Inspored by and forked from the cult classic SL by Toyoda Masashi (mtoyoda@acm.org)
-
-![](demo.gif)
