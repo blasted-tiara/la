@@ -22,13 +22,13 @@ make clean && make
 After compiling, if you want the command run _only sometimes_ when you type `la`,
 add this to your `.bashrc`, `.zshrc`, or `.somethingelserc`:
 ```
-unalias la                        # Unalias the usual la command
+unalias la                      # Unalias the usual la command
 function la {
     if (( $RANDOM % 10 == 0 ));
     then
         ~/path_to_project/la
     else
-        ls -lAh                   # "Re-alias" the unalised command
+        ls -lAh                 # "Re-alias" the unalised command
     fi
 }
 ```
