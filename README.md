@@ -32,7 +32,7 @@ function la {
     fi
 }
 ```
-With this configuration, it runs with probability of `1/10`.
+With this configuration, lucky ant appears with probability of `1/10`.
 
 ****************************************************************
 
