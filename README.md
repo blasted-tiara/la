@@ -7,4 +7,4 @@ Copyright 2024 Enver Podgorcevic
 
 Inspored by and forked from the cult classic SL by Toyoda Masashi (mtoyoda@acm.org)
 
-![](demo.mp4)
+![](demo.gif)
